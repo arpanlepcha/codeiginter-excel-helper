@@ -1,6 +1,6 @@
 <?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-//library helper created by arpanlepcha@gmail.com
+//helper created by arpanlepcha@gmail.com
 
 
 function mysqlto_excel($query, $filename='output')
