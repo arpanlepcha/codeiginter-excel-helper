@@ -1,0 +1,16 @@
+This is a simple php function for codeigniter to get excel out of mysql resource id
+
+
+to use,include 
+$this->load->helper('mysqlto_excel'); 
+
+
+Query the database that you do normally (supports joins,alias etc)
+
+$query = $this->db->get("table_name","optional filename");
+
+//$query  == database resource id
+
+mysqlto_excel($query);
+
+
